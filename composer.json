@@ -1,0 +1,28 @@
+{
+    "name": "unal/bootstrap-package-unal-skin",
+    "type": "typo3-cms-extension",
+    "description": "esta extension permite unir las funcionalidades de la extension boostrap_package v10 con la extension unal_skin_default.",
+    "authors": [
+        {
+            "name": "Alexis Ortiz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "UNAL\\BootstrapPackageUnalSkin\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UNAL\\BootstrapPackageUnalSkin\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "bootstrap_package_unal_skin": "self.version",
+        "typo3-ter/bootstrap-package-unal-skin": "self.version"
+    }
+}

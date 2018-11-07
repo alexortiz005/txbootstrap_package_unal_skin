@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "esta extension permite unir las funcionalidades de la extension boostrap_package v10 con la extension unal_skin_default.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99,\nbootstrap_package => 10.0.0-10.0.99,\nunal_skin_default => 0.2.0-0.2.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "es",
+            "state": "beta",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "bootstrap_package_unal_skin",
+        "name": "Complemento para Bootstrap Package y UNAL Skin",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "UNAL",
+                "email": "eaortiz@unal.edu.co",
+                "name": "Alexis Ortiz",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "UNAL"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-11-07 06:06",
+        "extension_builder_version": "8.10.2",
+        "be_user": " (1)"
+    }
+}
