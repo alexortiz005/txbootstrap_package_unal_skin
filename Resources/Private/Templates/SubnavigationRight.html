@@ -1,0 +1,30 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="DefaultUnal" />
+
+<f:section name="Main">
+
+    <main class="detalle">
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '3'}" />
+        <f:cObject typoscriptObjectPath="lib.breadcrumb"></f:cObject>
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '8'}" />
+
+        <div class="section section-default">
+            <div class="container">
+                <div class="section-row">
+                    <div class="section-column subnav-wrap">
+                        <f:render partial="Navigation/Subnavigation" arguments="{_all}" />
+                    </div>
+                    <main class="section-column maincontent-wrap" role="main">
+                        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '0'}" />
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{pageUid: '{data.uid}', colPos: '9'}" />
+
+        <f:render partial="Structure/FooterContent" arguments="{_all}" />
+    </main>
+
+</f:section>
+</html>

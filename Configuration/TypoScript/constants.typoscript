@@ -1,0 +1,7 @@
+page.fluidtemplate.layoutRootPath = EXT:unal_skin_default/Resources/Private/Layouts/
+page.fluidtemplate.partialRootPath = EXT:unal_skin_default/Resources/Private/Partials/
+page.fluidtemplate.templateRootPath = EXT:bootstrap_package_unal_skin/Resources/Private/Templates/
+plugin.bootstrap_package.settings.less.body-bg = #ddd
+plugin.bootstrap_package.settings.less.font-size-base = 14px
+plugin.bootstrap_package.settings.less.font-family-base = "Ancizar sans", Tahoma, Geneva, sans-serif;
+page.favicon.file = EXT:unal_skin_default/Resources/Public/images/favicon.ico
