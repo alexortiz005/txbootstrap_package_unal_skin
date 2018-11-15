@@ -1,0 +1,25 @@
+body{
+	width: 100%;
+	line-height: 1.125em;
+}
+
+.dropdown-menu > li > a {
+    padding: 3px 10px;
+}
+
+
+.mainMenu ul.dropdown-menu {
+    border-radius: 4px;
+}
+
+.mainMenu li {
+    border-radius: 4px;
+}
+
+.mainMenu a {
+    color: white !important;
+}
+
+.logos .no-padding{
+	padding:unset !important;
+}

@@ -1,7 +1,17 @@
 page.fluidtemplate.layoutRootPath = EXT:unal_skin_default/Resources/Private/Layouts/
 page.fluidtemplate.partialRootPath = EXT:unal_skin_default/Resources/Private/Partials/
 page.fluidtemplate.templateRootPath = EXT:bootstrap_package_unal_skin/Resources/Private/Templates/
+
 plugin.bootstrap_package.settings.less.body-bg = #ddd
 plugin.bootstrap_package.settings.less.font-size-base = 14px
 plugin.bootstrap_package.settings.less.font-family-base = "Ancizar sans", Tahoma, Geneva, sans-serif;
+plugin.bootstrap_package.settings.less.brand-primary = #4b4b4b;
+plugin.bootstrap_package.settings.less.line-height-base = 1.42857143
+plugin.bootstrap_package.settings.less.link-color = #94b43b;
+
 page.favicon.file = EXT:unal_skin_default/Resources/Public/images/favicon.ico
+
+page.preloader.enable = 0
+page.preloader.logo.file = EXT:unal_skin_default/Resources/Public/images/escudoUnal.svg
+page.preloader.logo.height = 200
+page.preloader.logo.width = 600

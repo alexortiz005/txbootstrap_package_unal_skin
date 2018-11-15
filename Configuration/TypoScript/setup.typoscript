@@ -1,0 +1,6 @@
+page{
+	includeCSS{
+		bootstrap_package_unal_skin=EXT:bootstrap_package_unal_skin/Resources/Public/css/bootstrap_package_unal_skin.css
+
+	}
+}
