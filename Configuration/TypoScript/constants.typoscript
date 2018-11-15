@@ -1,3 +1,12 @@
+############################
+### CUSTOM SUBCATEGORIES ###
+###########################
+# customsubcategory=piePagina=Pie de página
+# customsubcategory=menus=Menús
+# customsubcategory=redes=Redes Sociales
+# customsubcategory=profiles=Perfiles
+# customsubcategory=contact=Contacto
+
 page.fluidtemplate.layoutRootPath = EXT:unal_skin_default/Resources/Private/Layouts/
 page.fluidtemplate.partialRootPath = EXT:unal_skin_default/Resources/Private/Partials/
 page.fluidtemplate.templateRootPath = EXT:bootstrap_package_unal_skin/Resources/Private/Templates/
@@ -8,6 +17,12 @@ plugin.bootstrap_package.settings.less.font-family-base = "Ancizar sans", Tahoma
 plugin.bootstrap_package.settings.less.brand-primary = #4b4b4b;
 plugin.bootstrap_package.settings.less.line-height-base = 1.42857143
 plugin.bootstrap_package.settings.less.link-color = #94b43b;
+plugin.bootstrap_package.settings.less.container-desktop = 100%
+plugin.bootstrap_package.settings.less.container-large-desktop = 100%
+plugin.bootstrap_package.settings.less.container-lg = 100%
+plugin.bootstrap_package.settings.less.container-md = 100%
+plugin.bootstrap_package.settings.less.container-sm = 100%
+plugin.bootstrap_package.settings.less.container-tablet = 100%
 
 page.favicon.file = EXT:unal_skin_default/Resources/Public/images/favicon.ico
 
@@ -15,3 +30,77 @@ page.preloader.enable = 0
 page.preloader.logo.file = EXT:unal_skin_default/Resources/Public/images/escudoUnal.svg
 page.preloader.logo.height = 200
 page.preloader.logo.width = 600
+
+tx_unalskindefault {	
+	parameters {
+		profiles {
+			#cat=UNAL:profiles; type=string; label= Página web de aspirantes UNAL
+			aspirantes = http://aspirantes.unal.edu.co
+
+			#cat=UNAL:profiles; type=string; label= Página web de estudiantes UNAL
+			estudiantes = http://estudiantes.unal.edu.co
+
+			#cat=UNAL:profiles; type=string; label= Página web de egresados UNAL
+			egresados = http://egresados.unal.edu.co
+
+			#cat=UNAL:profiles; type=string; label= Página web de docentes UNAL
+			docentes = http://docentes.unal.edu.co
+
+			#cat=UNAL:profiles; type=string; label= Página web de administrativos UNAL
+			administrativos = http://administrativos.unal.edu.co
+
+		}
+
+		socialLinks {
+
+			#cat=UNAL:redes; type=string; label= Página en facebook de la UNAL
+			facebook = https://www.facebook.com/UNColombia
+
+			#cat=UNAL:redes; type=string; label= Página en twitter de la UNAL
+			twitter = https://twitter.com/UNColombia
+
+			#cat=UNAL:redes; type=string; label= RSS de la UNAL
+			rss = http://agenciadenoticias.unal.edu.co/nc/sus/type/rss2.html
+
+			#cat=UNAL:redes; type=string; label= Página en youtube de la UNAL
+			youtube = https://www.youtube.com/channel/UCnE6Zj2llVxcvL5I38B0Ceg
+		}
+
+		titleComplement = 
+
+		#cat=UNAL:menus; type=int+; label=Página inicial menú Principal
+		mainMenuUid = 3
+
+		#cat=UNAL:menus; type=int+; label=Página del menú de Servicios
+		serviceMenuUid = 1
+
+		#cat=UNAL:menus; type=int+; label=Página del mapa del sitio
+		sitemapLinkUid = 1
+
+		#cat=UNAL:menus; type=int+; label=Página de las preguntas frecuentes
+		faqLinkUid = 1
+
+		#cat=UNAL:menus; type=int+; label=Página de contactenos
+		contactLinkUid = 1
+
+		contact {
+			#cat=UNAL:contact; type=string; label=Dirección de la dependencia
+			address = Carrera 45 # 26-85
+
+			#cat=UNAL:contact; type=string; label=Edificio de la dependencia
+			building = Edif. Uriel Gutiérrez
+
+			#cat=UNAL:contact; type=string; label=Ciudad de la dependencia
+			city = Bogotá D.C.,  Colombia
+
+			#cat=UNAL:contact; type=string; label=Telefono de la dependencia
+			phone = (+57 1) 316 5000
+
+			#cat=UNAL:contact; type=string; label=Correo electrónico de la dependencia
+			emailAccount = mediosdigitales
+		}
+
+		#cat=UNAL:menus; type=int+; label=Página sobre nosotros
+		aboutLinkUid = 1
+	}
+}
