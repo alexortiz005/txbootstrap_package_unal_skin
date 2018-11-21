@@ -50,7 +50,7 @@ tx_unalskindefault {
 			administrativos = http://administrativos.unal.edu.co
 
 		}
-
+		showFinder = 1
 		socialLinks {
 
 			#cat=UNAL:redes; type=string; label= Página en facebook de la UNAL
