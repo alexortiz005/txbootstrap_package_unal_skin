@@ -1,4 +1,11 @@
 page{
+	
+	favicon.file = EXT:unal_skin_default/Resources/Public/images/favicon.ico
+	fluidtemplate{	
+		layoutRootPath = EXT:unal_skin_default/Resources/Private/Layouts/
+		partialRootPath = EXT:unal_skin_default/Resources/Private/Partials/
+		templateRootPath = EXT:bootstrap_package_unal_skin/Resources/Private/Templates/
+	}
 	includeCSS{
 		bootstrap_package_unal_skin=EXT:bootstrap_package_unal_skin/Resources/Public/css/bootstrap_package_unal_skin.css
 
@@ -7,5 +14,28 @@ page{
         bootstrap >
         jquery>
     }
+    preloader{
+		enable = 0
+		logo.file = EXT:unal_skin_default/Resources/Public/images/escudoUnal.svg
+		logo.height = 200
+		logo.width = 600
+    }
 }
 
+
+plugin.bootstrap_package.settings.less{
+	body-bg = #ddd
+	font-size-base = 14px
+	font-family-base = "Ancizar sans", Tahoma, Geneva, sans-serif;
+	brand-primary = #4b4b4b;
+	line-height-base = 1.42857143
+	link-color = #94b43b;
+	container-desktop = 100%
+	container-large-desktop = 100%
+	container-lg = 100%
+	container-md = 100%
+	container-sm = 100%
+	container-tablet = 100%	
+}
+
+config.concatenateJs = 0
