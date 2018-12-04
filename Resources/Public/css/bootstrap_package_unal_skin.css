@@ -23,3 +23,9 @@ body{
 .logos .no-padding{
 	padding:unset !important;
 }
+
+p {
+    line-height: 1.5;
+    font-size: 1.3em;
+    text-align: justify;
+}
