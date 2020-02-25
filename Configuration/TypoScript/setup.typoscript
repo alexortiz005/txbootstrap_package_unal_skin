@@ -1,25 +1,28 @@
 page{
-	
+
 	favicon.file = EXT:unal_skin_default/Resources/Public/images/favicon.ico
-	fluidtemplate{	
-		layoutRootPath = EXT:unal_skin_default/Resources/Private/Layouts/
-		partialRootPath = EXT:unal_skin_default/Resources/Private/Partials/
-		templateRootPath = EXT:bootstrap_package_unal_skin/Resources/Private/Templates/
+	fluidtemplate{
+		layoutRootPath.1 = EXT:unal_skin_default/Resources/Private/Layouts/
+		partialRootPath.1 = EXT:unal_skin_default/Resources/Private/Partials/
+		templateRootPath.1 = EXT:bootstrap_package_unal_skin/Resources/Private/Templates/
 	}
 	includeCSS{
 		bootstrap_package_unal_skin=EXT:bootstrap_package_unal_skin/Resources/Public/css/bootstrap_package_unal_skin.css
 
 	}
+	includeJS{
+		jquery.forceOnTop = 1
+	}
 	includeJSFooterlibs {
-        bootstrap >
-        jquery>
-    }
-    preloader{
-		enable = 0
-		logo.file = EXT:unal_skin_default/Resources/Public/images/escudoUnal.svg
-		logo.height = 200
-		logo.width = 600
-    }
+      bootstrap >
+      jquery >
+  }
+  preloader{
+	enable = 0
+	logo.file = EXT:unal_skin_default/Resources/Public/images/escudoUnal.svg
+	logo.height = 200
+	logo.width = 600
+  }
 }
 
 
@@ -35,7 +38,7 @@ plugin.bootstrap_package.settings.less{
 	container-lg = 100%
 	container-md = 100%
 	container-sm = 100%
-	container-tablet = 100%	
+	container-tablet = 100%
 }
 
 config.concatenateJs = 0
